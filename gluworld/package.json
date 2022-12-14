@@ -1,1 +1,1 @@
-{ "type": "module" }
+{"type":"module","dependencies":{"@gluon-framework/gluon":"^5.1.0"}}

@@ -1,4 +1,4 @@
-import * as Gluon from '../gluon/index.js';
+import * as Gluon from '@gluon-framework/gluon';
 
 Gluon.open('https://discord.com/app', {
   onLoad: () => {

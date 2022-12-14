@@ -1,4 +1,4 @@
-import * as Gluon from '../gluon/index.js';
+import * as Gluon from '@gluon-framework/gluon';
 
 import { fileURLToPath, pathToFileURL } from 'url';
 import { join, dirname } from 'path';

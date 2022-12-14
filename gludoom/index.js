@@ -1,4 +1,4 @@
-import * as Gluon from '../gluon/index.js';
+import * as Gluon from '@gluon-framework/gluon';
 
 (async () => {
   // Load existing site with WASM doom
