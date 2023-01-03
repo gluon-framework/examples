@@ -1,0 +1,23 @@
+{
+  "name": "@gluon-framework/examples",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "start": "node scripts/run",
+    "new": "node scripts/new"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9",
+    "inquirer": "^9.1.4",
+    "turbo": "^1.6.3"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "yarn@3.3.0"
+}

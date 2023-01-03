@@ -1,0 +1,9 @@
+{
+  "name": "@gluon-framework/examples-glucord",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@gluon-framework/gluon": "^0.8.0"
+  }
+}
