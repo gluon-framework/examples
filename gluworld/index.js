@@ -24,9 +24,11 @@ const dirSize = async dir => {
 };
 
 (async () => {
-  if (process.argv.length > 2) { // use argv as browsers to use
-    for (const forceBrowser of process.argv.slice(2)) {
-      if (!forceBrowser.startsWith('--')) await Gluon.open(pathToFileURL(join(__dirname, 'index.html')).href, {
+  const browsers = process.argv.slice(2).filter(x => !x.startsWith('-'));
+
+  if (browsers.length > 0) { // use argv as browsers to use
+    for (const forceBrowser of browsers) {
+      await Gluon.open(pathToFileURL(join(__dirname, 'index.html')).href, {
         windowSize: [ 800, 500 ],
         forceBrowser
       });
